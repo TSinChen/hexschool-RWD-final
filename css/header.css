@@ -39,6 +39,7 @@ h1 {
 	color: #fff;
 	font-family: Microsoft JhengHei;
 	text-decoration: none;
+	text-align: center;
 }
 
 .navbar .nav-item {
@@ -124,6 +125,10 @@ h1 {
 		margin: auto;
 		margin-right: 15px;
 		font-size: 24px;
+	}
+
+	.navbar .nav-item:last-child {
+		margin-right: 0;
 	}
 
 	.title {
