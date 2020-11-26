@@ -1,0 +1,111 @@
+.container {
+	background: #EFE9E7;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 50px 42.5px;
+	box-sizing: border-box;
+	font-family: MicrosoftJhengHeiRegular;
+	color: #3D1101;
+	display: flex;
+}
+
+.container .item {
+	width: 299px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .item h3 {
+	margin-bottom: 16px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.container .item ul {
+	list-style: disc;
+	text-indent: 16px;
+}
+
+.container .item:nth-child(1) {
+	margin-right: 21px;
+}
+
+.container .item:nth-child(2) {
+	margin-right: 75px;
+}
+
+.container .item .icons {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 22px;
+}
+
+.item .icons i {
+	font-size: 36px;
+}
+
+.item .icons a:nth-child(1) {
+	color: #DB4437;
+	margin-right: 12px;
+}
+
+.item .icons a:nth-child(2) {
+	color: #41ABE1;
+	margin-right: 12px;
+}
+
+.item .icons a:nth-child(3) {
+	color: #3A5795;
+}
+
+@media (max-width: 900px) {
+	.container .item {
+		max-width: 299px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding-left: 10px;
+		padding-right: 11px;
+	}
+
+	.container .item:nth-child(1) {
+		width: 30.33%;
+		margin-right: 3%;
+	}
+
+	.container .item:nth-child(2) {
+		width: 30.33%;
+		margin-right: 3%;
+	}
+
+	.container .item:nth-child(3) {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		display: block;
+		height: auto;
+		margin-bottom: 24px;
+		padding-bottom: 50px;
+	}
+
+	.container .item:nth-child(1) {
+		width: 95%;
+		margin: 0 2.5% 30px;
+	}
+
+	.container .item:nth-child(2) {
+		width: 95%;
+		margin: 0 2.5% 30px;
+	}
+
+	.container .item:nth-child(3) {
+		width: 95%;
+		margin-right: 0;
+	}
+}
