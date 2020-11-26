@@ -299,7 +299,7 @@ body {
 
 .reserve .button {
 	font-size: 0;
-	text-align: end;
+	text-align: right;
 }
 
 .button button {
@@ -307,7 +307,6 @@ body {
 	width: 70px;
 	padding: 6px 0;
 	font-size: 14px;
-	/*	line-height: 20px;*/
 	color: #fff;
 	border: 0;
 	border-radius: 3px;
