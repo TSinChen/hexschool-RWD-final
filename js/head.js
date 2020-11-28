@@ -9,8 +9,8 @@ $(document).ready(function () {
 			$(".title h2").css("lineHeight", "1");
 		}
 	});
-	
-	$(".nav-toggle").click(function() {
+
+	$(".nav-toggle").click(function () {
 		$(".container").toggleClass("open");
 	});
 });

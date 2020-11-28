@@ -46,6 +46,10 @@ h1 {
 	margin: auto 0;
 }
 
+.navbar .nav-item:nth-child(1) {
+	
+}
+
 .navbar .nav-item:last-child {
 	margin-right: 33px;
 }
