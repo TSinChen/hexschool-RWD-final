@@ -534,7 +534,6 @@ h1 {
 	padding: 50px 1.5%;
 	box-sizing: border-box;
 	color: #3D1101;
-	font-family: MicrosoftJhengHeiRegular;
 	display: flex;
 	background: #EFE9E7;
 	line-height: 21px;
@@ -596,20 +595,26 @@ h1 {
 
 .footer .icon {
 	margin-top: 22px;
-	font-size: 36px;
 }
 
-.footer .icon i:nth-child(1) {
+.footer .icon a {
+	text-decoration: none;
+}
+
+.footer .icon a:nth-child(1) {
 	color: #DB4437;
 }
 
-.footer .icon i:nth-child(2) {
-	font-size: 36px;
+.footer .icon a:nth-child(2) {
 	color: #41ABE1;
 }
 
-.footer .icon i:nth-child(3) {
+.footer .icon a:nth-child(3) {
 	color: #3A5795;
+}
+
+.footer .icon i {
+	font-size: 36px;
 }
 
 @media(max-width: 576px) {
