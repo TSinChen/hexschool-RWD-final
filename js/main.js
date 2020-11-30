@@ -31,4 +31,10 @@ $(document).ready(function () {
 		$(this).toggleClass("added");
 		$(".cart-count").html(addCount);
 	});
+
+	$(".to-top").click(function () {
+		$("html, body").animate({
+			scrollTop: 0
+		}, 500);
+	});
 });
