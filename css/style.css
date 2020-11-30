@@ -618,8 +618,8 @@ h1 {
 }
 
 @media(max-width: 576px) {
-	.footer .link {
-		margin-bottom: 0;
+	.footer {
+		padding-bottom: 60px;
 	}
 }
 
