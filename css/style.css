@@ -1,26 +1,5 @@
 body {
-	font-family: MicrosoftJhengHeiRegular;
-}
-
-@font-face {
-	font-family: NotoSansCJKtc-Black;
-	src: url(font/NotoSansCJKtc-Black.otf);
-}
-
-
-@font-face {
-	font-family: NotoSansCJKtc-Medium;
-	src: url(font/NotoSansCJKtc-Medium.otf);
-}
-
-@font-face {
-	font-family: Roboto-Light;
-	src: url(font/Roboto-Light.ttf);
-}
-
-@font-face {
-	font-family: MicrosoftJhengHeiRegular;
-	src: url(font/msjh.ttc);
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .to-top {
@@ -79,7 +58,6 @@ h1 {
 	display: block;
 	padding: 15px;
 	color: #fff;
-	font-family: Microsoft JhengHei;
 	text-decoration: none;
 	text-align: center;
 }
@@ -794,7 +772,7 @@ h1 {
 
 .food-item .price p {
 	display: inline;
-	font-family: Roboto-Light;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 24px;
 }
@@ -968,13 +946,12 @@ h1 {
 
 .container-login .title h2 {
 	margin-bottom: 5px;
-	font-family: NotoSansCJKtc-Black;
 	font-size: 48px;
+	font-weight: bold;
 	line-height: 48px;
 }
 
 .container-login .title p {
-	font-family: NotoSansCJKtc-Medium;
 	font-size: 20px;
 	line-height: 20px;
 }
@@ -990,8 +967,8 @@ h1 {
 }
 
 .form h3 {
-	font-family: NotoSansCJKtc-Black;
 	font-size: 18px;
+	font-weight: bold;
 	text-align: center;
 }
 
