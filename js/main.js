@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	//讓標題的換行正常顯示
 	$(window).resize(function () {
 		wid = $(window).width();
 		if (wid <= 576) {
@@ -9,15 +10,15 @@ $(document).ready(function () {
 			$(".header .title h2").css("lineHeight", "1");
 		}
 	});
-
+	//選單切換
 	$(".nav-toggle").click(function () {
 		$(".header").toggleClass("open");
 	});
-
+	//加到最愛的狀態
 	$(".heart").click(function () {
 		$(this).find(".fas").toggleClass("liked");
 	});
-
+	//加到購物車
 	let addCount = 0;
 	$(".add-cart").click(function (event) {
 		event.preventDefault();
@@ -31,7 +32,7 @@ $(document).ready(function () {
 		$(this).toggleClass("added");
 		$(".cart-count").html(addCount);
 	});
-
+	//回到頂端
 	$(".to-top").click(function () {
 		$("html, body").animate({
 			scrollTop: 0

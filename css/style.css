@@ -88,6 +88,10 @@ h1 {
 	margin: auto 0;
 }
 
+.navbar .nav-item:hover {
+	background: #555;
+}
+
 .navbar .nav-item:last-child {
 	margin-right: 33px;
 }
@@ -492,6 +496,7 @@ h1 {
 	color: #fff;
 	border: 0;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 .reserve .button button:last-child {
@@ -870,8 +875,10 @@ h1 {
 	transition: .1s;
 }
 
-.heart:hover .fas {
-	opacity: 1;
+@media (min-width: 1200px) {
+	.heart:hover .fas {
+		opacity: 1;
+	}
 }
 
 .heart .fas.liked {
