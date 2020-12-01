@@ -220,7 +220,7 @@ h1 {
 .tips-item h3 {
 	margin: 22px auto 11px;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: bold;
 }
 
 @media (max-width: 576px) {
@@ -361,11 +361,13 @@ h1 {
 .feedback-item .txt h3 {
 	margin: 22px 0;
 	font-size: 18px;
+    font-weight: bold;
 }
 
 .feedback-item .txt p:last-child {
 	margin-top: 16px;
 	color: rgba(61, 17, 0, 0.75);
+    font-style: italic;
 	text-align: right;
 }
 
@@ -555,8 +557,8 @@ h1 {
 }
 
 .footer .contact ul {
+    margin-left: 18px;
 	list-style: disc;
-	text-indent: 18px;
 }
 
 .footer .link {
