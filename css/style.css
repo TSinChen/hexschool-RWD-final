@@ -36,10 +36,11 @@ body {
 .navbar {
 	display: flex;
 	background: rgba(0, 0, 0, 0.75);
+    align-items: center;
 }
 
 .navbar .logo {
-	margin: 16px auto 16px 42px;
+	margin: auto auto auto 42px;
 }
 
 h1 {
@@ -60,10 +61,6 @@ h1 {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-}
-
-.navbar .nav-item {
-	margin: auto 0;
 }
 
 .navbar .nav-item:hover {
@@ -144,6 +141,11 @@ h1 {
 		background-image: url(img/header_mobile.png);
 	}
 
+    .header .logo {
+	    margin-top: 16px;
+        margin-bottom: 16px;
+	}
+    
 	.header .nav-item {
 		display: none;
 	}
@@ -160,11 +162,8 @@ h1 {
 	}
 
 	.header .title {
-		background: rgba(0, 0, 0, 0.35);
 		margin: 56px auto 145px;
 		padding: 20px 6px;
-		max-width: 300px;
-		text-align: center;
 	}
 }
 
