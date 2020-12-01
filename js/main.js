@@ -41,6 +41,6 @@ $(document).ready(function () {
     //lightbox
     lightbox.option({
         'resizeDuration': 500,
-        'wrapAround': true
+		'positionFromTop': 100
     })
 });
