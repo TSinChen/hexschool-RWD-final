@@ -18,6 +18,12 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 576px) {
+    .to-top {
+        right: 20px;
+    }
+}
+
 /*-----------------------header start-----------------------*/
 .header {
     position: absolute;
