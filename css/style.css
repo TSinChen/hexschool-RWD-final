@@ -691,6 +691,10 @@ h1 {
     box-sizing: border-box;
 }
 
+.top .search input:focus {
+    outline: none;
+}
+
 .top .search .fa-search {
     background: #3D1101;
     color: #fff;
